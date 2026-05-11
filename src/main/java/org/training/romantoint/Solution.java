@@ -18,12 +18,6 @@ public class Solution {
                 Map.entry("C", 100),
                 Map.entry("D", 500),
                 Map.entry("M", 1000)
-//                Map.entry("CM", 900),
-//                Map.entry("XC", 90),
-//                Map.entry("IV", 4),
-//                Map.entry("IX", 9),
-//                Map.entry("XL", 40),
-//                Map.entry("CD", 400)
         );
         String[] charsRomans = s.split("");
         for (int i = 0; i < charsRomans.length; i++) {
