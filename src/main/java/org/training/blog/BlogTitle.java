@@ -24,9 +24,9 @@ public class BlogTitle {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        BlogTitle blogTitle = (BlogTitle) o;
+    public boolean equals(Object object) {
+        if (object == null || getClass() != object.getClass()) return false;
+        BlogTitle blogTitle = (BlogTitle) object;
         return blogTitle.buildSlug(blogTitle.getTitle()).equals(this.buildSlug(title));
     }
 
